@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'maqe';
+	src:url('../fonts/maqe.eot?-l1mpu9');
+	src:url('../fonts/maqe.eot?#iefix-l1mpu9') format('embedded-opentype'),
+		url('../fonts/maqe.woff?-l1mpu9') format('woff'),
+		url('../fonts/maqe.ttf?-l1mpu9') format('truetype'),
+		url('../fonts/maqe.svg?-l1mpu9#maqe') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	font-family: 'maqe'
+}
+
+.icon-star:before {
+	content: "\e601";
+}
+
+.inactive {
+	opacity: 0.3;
+}

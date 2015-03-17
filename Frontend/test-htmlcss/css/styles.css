@@ -1,0 +1,31 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.review-btn {
+  color: #FFF;
+  background: #FFF;
+  border: 1px solid #00995F;
+  border-radius: 3px;
+  padding: 2px;
+  box-shadow: 0px 1px 1px #D5D5D5;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.review-btn > div {
+  background: -webkit-linear-gradient(#00995F, #007039);
+  background: -o-linear-gradient(#00995F, #007039);
+  background: -moz-linear-gradient(#00995F, #007039);
+  background: linear-gradient(#00995F, #007039);
+  padding: 8px 14px;
+  margin: 0px;
+  border-radius: 1px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.review-btn .icon-star {
+  font-size: 12px;
+  padding-left: 2px;
+}
